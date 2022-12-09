@@ -1,0 +1,5 @@
+-Disable ESlint by commenting the exportable contents of the file
+nest g mo messages
+nest g co messages/messages --flat (--flat to prevent controller folder creation)
+- ValidationPipe is configured in main.ts to use it globally.
+It requires the libraries class-validator and class-transformer to work.
