@@ -1,0 +1,5 @@
+1. class-transforme transforms the plain body object to a instance of the dto class object
+2. class-validator runs the validations before entering the controller function
+3. If there are unfullfilled validations, class-validator will throw an error and nestjs exception handler will return as the response
+
+*Type information is preserved on transpilation thanks to the decorators, you can inspect the contorller file in the dist folder. (emitDecoratorMetadata, experimentalDecorators).
