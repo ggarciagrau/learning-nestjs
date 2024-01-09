@@ -1,0 +1,13 @@
+### List messages
+GET http://localhost:3000/messages
+
+### Get message
+GET http://localhost:3000/messages/:id
+
+### Store messages
+POST http://localhost:3000/messages
+Content-Type: application/json
+
+{
+    "content": "Hello world"   
+}
